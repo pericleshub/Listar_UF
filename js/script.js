@@ -6,7 +6,7 @@
 //     console.log(API2)
 // })
 
-let uf = ""
+let uf
 let campo = document.querySelector("input");
 let but = document.querySelector("button");
 let refresh = 0
@@ -62,7 +62,7 @@ but.onclick = function(){
 
     }
 
-    //document.querySelector("button").value = "Atualize a Página";
+    document.querySelector("button").innerHTML = "Atualizar Página";
 
     main()
     
