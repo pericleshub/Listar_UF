@@ -6,10 +6,8 @@
 //     console.log(API2)
 // })
 
-
-
 let uf = ""
-let campo = document.querySelector("textarea");
+let campo = document.querySelector("input");
 let but = document.querySelector("button");
 let refresh = 0
 
