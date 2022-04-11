@@ -4,8 +4,9 @@
 // }).then(API2 =>{
 //     document.getElementById("saida").innerHTML = API2.id
 //     console.log(API2)
-    
 // })
+
+
 
 let uf = ""
 let campo = document.querySelector("textarea");
@@ -64,6 +65,7 @@ but.onclick = function(){
     }
 
     //document.querySelector("button").value = "Atualize a Página";
+
     main()
     
 }
